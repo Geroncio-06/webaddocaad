@@ -1,0 +1,1367 @@
+
+.backgroundIndex{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: black;
+}
+
+.headerIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    width: 200px;
+    height: 200px;
+    margin-left: -20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+  }
+
+  .footerIndex {
+    
+    font-size: 18px;
+    position: absolute;
+    top: 90%;
+    left: 42.5%;
+    color: white;
+    font-weight: 500;
+    
+
+  
+  }
+
+
+  .progressIndex {
+      position: absolute;
+      left: 47.5%;
+      top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    padding: 6px;
+}
+
+
+.footer {
+    
+    margin-top: 40px;
+    text-align: start;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight:bolder;
+    background:white;
+
+  
+  }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.header_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.header_login3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.overview_panel{
+    width: 400px;
+    height: 559px;
+    padding: 20px;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.overview_panel_start{
+    width: 500px;
+    height: 559px;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('banner.jpg');
+    background-size: 100% 100%;
+}
+
+.overview_content{
+    width: 850px;
+    height: 95vh;
+    align-content: center;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #0e0e0e;;
+    
+}
+
+
+.input{
+    border: none;
+    border-radius: 18px;
+    margin-top: 30px;
+    color: gray;
+    border: 1.9px solid #000;
+    background-color: white;
+    margin-left: 18px;
+    padding: 10px;
+    font-size: 15px;
+    width: 90%;
+    outline: none;
+}
+
+
+.text_input2{
+    font-size:10px;
+    font-weight: 300;
+    margin-left: 5px;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: -40px;
+
+}
+
+.text_input_cadastrar{
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 300px;
+    margin-left: 65px;
+    color: white;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_input_cadastrar2{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -35px;
+    margin-bottom: 40px;
+    margin-left: 65px;
+    color: #fafafa;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_button{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.text_esqueceu{
+    text-align: end;
+    margin-top: 12px;
+    margin-right: 20px;
+    font-size: 11px;
+    font-weight:500;
+    
+
+}
+
+.heading_entrar {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 18px;
+    border: none;
+    color: white;
+    background-color: black;
+    outline: none;
+    padding: 10px;
+}
+
+.progress {
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    padding: 6px;
+}
+
+.heading_cadastrar {
+    width: 300px;
+    margin-left: 65px;
+    border: 2px solid #fff;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.heading_cadastrar2 {
+    display: none;
+}
+
+.acessivel{
+    display: flex;
+}
+
+.android{
+    margin-left: 5px;
+}
+
+
+/*page account*/
+
+.footer_ac{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+    text-align: start;
+    font-size: 14px;
+    font-weight:bolder;
+  
+  }
+
+  .userPhoto_ac{
+    margin-top: -50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-left: 37%;
+}
+.userPhoto2{
+    
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-left: 37%;
+    margin-top: -10%;
+}
+
+.header_ac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+.overview_panel_ac{
+    width: 400px;
+    height: 559px;
+    padding: 20px;
+    justify-content: flex-start;
+    background-color: var(--background-color-light);
+}
+
+.overview_panel_start_ac{
+    width: 300px;
+    height: 559px;
+    padding: 20px;
+    justify-content: flex-start;
+    background-image: url('monte.jpg');
+    background-size: 100% 100%;
+}
+
+.overview_content0_ac{
+    width: 550px;
+    height: 559px;
+    align-content: center;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #0e0e0e;;
+    
+}
+
+.overview_content_ac{
+    position: absolute;
+    left: 25%;
+    top: 8.5%;
+    width: 700px;
+    height: 559px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background:white;
+    
+}
+
+
+.input_ac{
+    border: none;
+    border-radius: 18px;
+    margin-top: 10px;
+    color: gray;
+    border: 1.9px solid #000;
+    background-color: white;
+    margin-left: 18px;
+    padding: 7px;
+    font-size: 15px;
+    width: 90%;
+    outline: none;
+}
+
+.input_ac2{
+    border: none;
+    border-radius: 18px;
+    margin-top: 0px;
+    color: gray;
+    border: 1.9px solid #000;
+    background-color: white;
+    margin-left: 18px;
+    padding: 7px;
+    font-size: 15px;
+    width: 90%;
+    outline: none;
+}
+
+.text_input_ac{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.text_input_ac2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 20px;
+    color:black;
+
+}
+
+.text_input_ac3{
+    font-size: 15px;
+    font-weight: 500;
+    font-family:sans-serif;
+    margin-left: 200px;
+    margin-top: -18px;
+    color:gray;
+
+}
+
+.text_input2_ac{
+    font-size:10px;
+    font-weight: 300;
+    margin-left: 5px;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: -40px;
+
+}
+
+.text_input_cadastrar_ac{
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-left: 35px;
+    color: white;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_input_cadastrar2_ac{
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    color: #fafafa;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_button_ac{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.text_esqueceu_ac{
+    text-align: end;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight:700;
+    
+
+}
+
+.heading_entrar_ac {
+    width: 83%;
+    margin-left: 28px;
+    margin-top: 40px;
+    margin-bottom: -150px;
+    border: none;
+    color: white;
+    background-color: black;
+    outline: none;
+    padding: 10px;
+}
+
+.heading_cadastrar_ac {
+    width: 300px;
+    margin-left: 65px;
+    border: 2px solid #fff;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.heading_cadastrar2_ac {
+    display: none;
+}
+
+.acessivel_ac{
+    display: flex;
+}
+
+.android_ac{
+    margin-top: 33px;
+    margin-left: 5px;
+}
+
+.photo_ac{
+    
+    position: relative;
+    left: 35%;
+    top: -3%;
+}
+
+.scroll_ac{
+    margin-top: 10px;
+    padding: 5px;
+    overflow:auto;
+    height: 260px;
+}
+
+
+
+.radioGroup_ac2{
+    display: -moz-grid-line;
+    margin-top: 20px;
+    margin-left: -130px;
+    padding: 5px;
+    
+}
+
+
+.radioGroup_input2{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 170px;
+    
+    
+}
+
+
+
+
+.overview_panel_start_auth{
+    width: 300px;
+    height: 559px;
+    padding: 20px;
+    justify-content: flex-start;
+    background-image: url('userbackground.jpg');
+    background-size: 100% 100%;
+}
+
+.userPhoto{
+    
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.userPhoto2{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 50%;
+    
+}
+
+
+.photo{
+    width: 0px;
+    position: relative;
+    left: 28%;
+    top: 5%;
+}
+
+.photo2{
+    
+    position: relative;
+    left: 35%;
+    top: -20%;
+}
+
+.text_input_auth{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 65px;
+    color: white;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_input_auth2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: -10px;
+    text-align: center;
+    color: #fffafa;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_input_auth3{
+    font-size: 13px;
+    font-weight:lighter;
+    margin-top: 10px;
+    text-align: center;
+    color: #fffafa;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_input_auth4{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+    color: #0e0e0e;
+    font-family:"Open Sans Condensed";
+
+}
+
+.text_input_auth5{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: left;
+    color: #0e0e0e;
+    font-family:"PT Sans";
+
+}
+
+.text_input_auth6{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: 35px;
+    text-align: left;
+    color: #0e0e0e;
+    font-family:"PT Sans";
+
+}
+
+.text_input_auth7{
+    font-size: 0px;
+    
+    
+
+}
+
+.text_input_auth8{
+    font-size: 0px;
+
+}
+
+.text_input_authfooter{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fafafa;
+    font-family:"Open Sans Condensed";
+
+}
+
+.header_auth{
+    
+    
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    position: relative;
+    left: 42%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+
+
+  .logout_auth{
+      position: absolute;
+      left: 31%;
+      top: 23%;
+  }
+
+  .block_auth{
+      margin-top: 10px;
+      margin-left: 20px;
+      display: flex;
+  }
+
+  .block_auth2{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+  }
+
+  .heading_entrarauth {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-left: -20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family:"PT Sans";
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: none;
+    padding: 5px;
+}
+
+.header_logauth{
+    
+    
+    margin-left: 270px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+  }
+
+  .header_logauth2{
+    
+    
+    margin-left: 270px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+  }
+
+  .header_auth3{
+    
+    
+    width: 0px;
+    height: 0px;
+    margin-top: 35px;
+    position: relative;
+    left: 73%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50%;
+
+
+}
+
+.header_auth2{
+    
+    
+    width: 0px;
+    height: 0px;
+    margin-top: -35px;
+    position: relative;
+    left: 73%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.logout_auth3{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 31%;
+    top: -23%;
+}
+
+.logout_auth4{
+    width: 0px;
+    height: 0px;
+    margin-left: -12px;
+    margin-top: -7px;
+}
+
+  .input_log{
+    background-color: transparent;
+    font-size: 0;
+    color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    
+  }
+
+  .text_erro{
+      color: white;
+  }
+
+
+
+  .logVersioncell{
+      width: 0px;
+      height: 0px;
+  }
+
+
+
+
+  .overview_panel_start_admin{
+    width: 500px;
+    height: 559px;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('admin2.jpg');
+    background-size: 100% 100%;
+}
+
+
+
+.heading_entraradmin {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-left: -20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family:"PT Sans";
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: none;
+    padding: 5px;
+}
+
+
+.header_admin{
+    
+    
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    position: relative;
+    left: 42%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.text_input_adminfooter{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fafafa;
+    font-family:"Open Sans Condensed";
+
+}
+
+.input_search{
+    border: none;
+    border-radius: 0px;
+    
+    color: gray;
+    
+    margin-left: 18px;
+    
+    font-size: 15px;
+    width: 90%;
+    outline: none;
+}
+
+.label_search{
+    display: flex;
+    border: 1.9px solid #000;
+    background-color: white;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    padding: 7px;
+    border-radius: 18px;
+}
+
+.list{
+    
+    max-width: 400px;
+
+}
+
+.listcomponents{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.blist{
+    float: right;
+    width: 40px;
+    margin-top: 10px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+.hlist{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.scroll_list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    overflow:auto;
+    height: 260px;
+}
+
+
+
+.wrapper{
+    width: 400px;
+    margin-left: -30px;
+    float: left;
+}
+
+.userPhoto_ac2{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 720px){
+
+    
+
+    .overview_panel{
+        width: 400px;
+        height: 559px;
+        padding: 20px;
+        justify-content: flex-start;
+        background-color: white;
+    }
+
+    .overview_panel_start_admin{
+        display: none;
+    }
+
+    .overview_panel2{
+        
+        background-color: white;
+    }
+
+    .userPhoto_ac{
+        margin-top: -40px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 50%;
+        margin-left: 37%;
+    }
+
+    .userPhoto_ac2{
+        display: inline;
+        margin-top: -60px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 50%;
+        margin-left: 35%;
+    }
+
+    
+
+    .overview_content_ac{
+        width: max-content;
+        height: max-content;
+        display: flex;
+        background-color: white;
+    }
+
+    .text_erro{
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: black;
+        font-size: 20px;
+    }
+
+    .backgroundIndex{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: black;
+    }
+    
+    .headerIndex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        width: 200px;
+        height: 200px;
+        background-color: white;
+      }
+    
+      .footerIndex {
+        
+        font-size: 14px;
+        position: absolute;
+        top: 90%;
+        left: 32%;
+        color: white;
+        font-weight: 500;
+        
+    
+      
+      }
+
+      .progressIndex {
+        position: absolute;
+        left: 47%;
+        top: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        padding: 6px;
+  }
+    
+
+    .footer {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: -15px;
+        text-align: start;
+        font-size: 14px;
+        font-weight:bolder;
+      
+      }
+
+      .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+      }
+
+      .header_login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .overview_panel_start{
+        display: none;
+    }
+
+    .overview_panel_start_account{
+       
+    }
+
+
+    .overview_panel_end{
+        margin-bottom: 20px;
+        margin-top: -60px;
+    }
+    
+    .overview_content{
+        width: 400px;
+        height: 92vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background:white;
+        
+    }
+
+    .heading_entrar {
+        width: 90%;
+        margin-top: 40px;
+        margin-left: 22px;
+        border: none;
+        color: white;
+        background-color: black;
+        outline: none;
+        padding: 10px;
+    }
+
+    .heading_cadastrar2 {
+        display:inherit;
+        width: 90%;
+        margin-left: 22px;
+        align-items: center;
+        margin-top: 25px;
+        border: 2px solid black;
+        color: black;
+        background-color: transparent;
+        outline: none;
+        padding: 10px;
+    }
+
+    .text_input2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:10px;
+        font-weight: 300;
+        color: gray;
+        margin-top: 40px;
+        margin-bottom: -10px;
+    
+    }
+
+    .text_esqueceu{
+        text-align: end;
+        margin-top: 12px;
+        margin-right: 20px;
+        font-size: 11px;
+        font-weight:500;
+        
+    
+    }
+    
+    .input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 18px;
+        margin-top: 30px;
+        color: gray;
+        border: 1.9px solid #000;
+        background-color: white;
+        margin-left: 22px;
+        padding: 10px;
+        font-size: 15px;
+        width: 90%;
+        outline: none;
+    }
+
+
+    /*page account*/
+
+
+    .footer_ac {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: -15px;
+        text-align: start;
+        font-size: 14px;
+        font-weight:bolder;
+      
+      }
+
+      .header_ac{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+      }
+    
+    
+    .overview_panel_start_ac{
+        display: none;
+    }
+
+    .overview_panel_start_ac{
+        display: none;
+    }
+
+
+    .overview_panel_end_ac{
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    
+    .overview_content_ac{
+        position: relative;
+        left: 0%;
+        margin-top: -40px;
+        width: 400px;
+        height: 720px;
+        align-items: center;
+        justify-content: flex-end;
+        background:white;
+        
+    }
+
+    .heading_entrar_ac {
+        width: 90%;
+        margin-top: 40px;
+        margin-left: 22px;
+        border: none;
+        color: white;
+        background-color: black;
+        outline: none;
+        padding: 10px;
+    }
+
+    .heading_cadastrar2_ac {
+        display:inherit;
+        width: 90%;
+        margin-left: 22px;
+        align-items: center;
+        margin-top: 25px;
+        border: 2px solid black;
+        color: black;
+        background-color: transparent;
+        outline: none;
+        padding: 10px;
+    }
+
+    .text_input2_ac{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:10px;
+        font-weight: 300;
+        color: gray;
+        margin-top: 40px;
+        margin-bottom: -10px;
+    
+    }
+
+    .text_esqueceu_ac{
+        text-align: end;
+        margin-top: 12px;
+        margin-right: 20px;
+        font-size: 11px;
+        font-weight:500;
+        
+    
+    }
+    
+    .input_ac{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 18px;
+        margin-top: 30px;
+        color: gray;
+        border: 1.9px solid #000;
+        background-color: white;
+        margin-left: 22px;
+        padding: 10px;
+        font-size: 15px;
+        width: 90%;
+        outline: none;
+    }
+
+    .input_ac2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 18px;
+        margin-top: 30px;
+        color: gray;
+        border: 1.9px solid #000;
+        background-color: white;
+        margin-left: 22px;
+        padding: 10px;
+        font-size: 15px;
+        width: 90%;
+        outline: none;
+    }
+    .photo_ac{
+    
+        position: relative;
+        left: 37%;
+        top: -3%;
+    }
+
+    .scroll_ac{
+        margin-top: 10px;
+        padding: 5px;
+        overflow:auto;
+        height: 300px;
+    }
+
+    .overview_panel_start_auth{
+        display: none;
+    }
+
+    
+
+    .header_logauth2{
+    
+    
+        margin-left: 270px;
+        margin-right: 0px;
+        margin-top: -60px;
+        margin-bottom: 100px;
+    }
+
+    .header_logauth{
+    
+    
+        margin-left: 260px;
+        margin-right: 0px;
+        margin-top: -60px;
+        margin-bottom: 100px;
+    }
+
+    .photo2{
+    
+        position: relative;
+        left: 38%;
+        top: -20%;
+    }
+
+    .userPhoto2{
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 50%;
+    }
+
+      .text_input_auth7{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+        color: black;
+        font-family:"Open Sans Condensed";
+    
+    }
+    
+    .text_input_auth8{
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: -20px;
+        text-align: center;
+        color: black;
+        font-family:"Open Sans Condensed";
+    
+    }
+
+    .block_auth2{
+        margin-top: -10px;
+        margin-left: 20px;
+        display: flex;
+      }
+
+    .logVersioncell{
+        margin-top: -20px;
+        width: 375px;
+        height: 60px;
+        display: flex;
+    }
+
+    .header_auth2{
+    
+    
+        width: 40px;
+        height: 40px;
+        margin-top: 35px;
+        position: relative;
+        left: 45%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        border-radius: 50%;
+    }
+
+    .header_auth3{
+    
+    
+        width: 40px;
+        height: 40px;
+        margin-top: 35px;
+        position: relative;
+        left: 73%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        border-radius: 50%;
+    }
+
+    .logout_auth3{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 31%;
+        top: 23%;
+    }
+
+    .logout_auth4{
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        left: 31%;
+        top: 23%;
+    }
+    .header_login3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+
+    .scroll_list{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 5px;
+        overflow:auto;
+        height: 400px;
+    }
+    
+    
+}
+
